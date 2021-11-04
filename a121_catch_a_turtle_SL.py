@@ -111,6 +111,7 @@ if user_input == "yes":
   start_game()
 else:
   wn.textinput("Menu", "Okay, goodbye!")
+  trtl.bye()
 #-----events----------------
 
 spot.onclick(spot_clicked)
